@@ -1,0 +1,28 @@
+nav {
+  border: 3px solid black;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-evenly;
+  font-family: 'Raleway', sans-serif;
+  height: 100%;
+}
+
+li {
+  text-align: center;
+  width: 12%;
+  padding: 12px;
+}
+
+li:hover {
+  cursor: pointer;
+  background: #efeaea;
+}
+
+li:focus {
+  background: #efeaea;
+}
