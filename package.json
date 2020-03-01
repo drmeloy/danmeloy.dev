@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/drmeloy/danmeloy.dev/issues"
   },
-  "homepage": "https://github.com/drmeloy/danmeloy.dev#readme"
+  "homepage": "https://github.com/drmeloy/danmeloy.dev#readme",
+  "dependencies": {
+    "animate.css": "^3.7.2"
+  }
 }
