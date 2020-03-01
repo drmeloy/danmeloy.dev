@@ -2,11 +2,12 @@ const displayAbout = () => {
   const main = document.getElementById('main');
   main.innerHTML = /*html*/ `
     <div id="intro">
-      <p>
-        Hi, my name is <span id="name">Dan Meloy</span>.<br>I am a <span id="title">full-stack software engineer</span> based out of Portland, Oregon. I utilize <span class='highlight'>powerful technologies</span> such as <span class='hightlight'>React, Redux, Express, & Node</span> to build <span class='hightlight'>beautiful, client-oriented, full-stack applications</span>.
+      <p class=about>
+        Hi, my name is Dan Meloy.<br><br>I am a full-stack software engineer based out of Portland, Oregon. I use powerful technologies such as React, Redux, Express, & Node to build beautiful, client-oriented, full-stack applications.
       </p>
       <p>
-        My
+        My background ranges from 
+      </p>
     </div>
   `;
 }
