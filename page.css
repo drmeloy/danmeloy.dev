@@ -93,8 +93,16 @@ p {
 
 #links {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background: linear-gradient(230deg, rgba(93, 93, 93, 0.03) 0%, rgba(93, 93, 93, 0.03) 50%,rgba(78, 78, 78, 0.03) 50%, rgba(78, 78, 78, 0.03) 100%),linear-gradient(107deg, rgba(55, 55, 55, 0.01) 0%, rgba(55, 55, 55, 0.01) 50%,rgba(170, 170, 170, 0.01) 50%, rgba(170, 170, 170, 0.01) 100%),linear-gradient(278deg, rgba(16, 16, 16, 0.03) 0%, rgba(16, 16, 16, 0.03) 50%,rgba(24, 24, 24, 0.03) 50%, rgba(24, 24, 24, 0.03) 100%),linear-gradient(205deg, rgba(116, 116, 116, 0.03) 0%, rgba(116, 116, 116, 0.03) 50%,rgba(0, 0, 0, 0.03) 50%, rgba(0, 0, 0, 0.03) 100%),linear-gradient(150deg, rgba(5, 5, 5, 0.03) 0%, rgba(5, 5, 5, 0.03) 50%,rgba(80, 80, 80, 0.03) 50%, rgba(80, 80, 80, 0.03) 100%),linear-gradient(198deg, rgba(231, 231, 231, 0.03) 0%, rgba(231, 231, 231, 0.03) 50%,rgba(26, 26, 26, 0.03) 50%, rgba(26, 26, 26, 0.03) 100%),linear-gradient(278deg, rgba(89, 89, 89, 0.03) 0%, rgba(89, 89, 89, 0.03) 50%,rgba(26, 26, 26, 0.03) 50%, rgba(26, 26, 26, 0.03) 100%),linear-gradient(217deg, rgba(28, 28, 28, 0.03) 0%, rgba(28, 28, 28, 0.03) 50%,rgba(202, 202, 202, 0.03) 50%, rgba(202, 202, 202, 0.03) 100%),linear-gradient(129deg, rgba(23, 23, 23, 0.03) 0%, rgba(23, 23, 23, 0.03) 50%,rgba(244, 244, 244, 0.03) 50%, rgba(244, 244, 244, 0.03) 100%),linear-gradient(90deg, rgb(1, 64, 149),rgb(198, 5, 91))
+}
+
+.techs {
+  font-size: 2.5rem;
+  width: 85vw;
+  margin: 10vh;
+  line-height: 1.3;
+  color: white;
 }
 
 .temp {
@@ -112,4 +120,27 @@ p {
   margin-left: 0;
   border: 1px solid black;
   border-radius: 15px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 1vw;
+}
+
+.icons > img, a > img, .sites > a {
+  height: 20vh;
+  transition: all .2s ease-in-out;
+}
+
+.icons > img:hover, .sites > a:hover {
+  transform: scale(1.3);
+}
+
+.sites {
+  justify-content: flex-end;
+}
+
+.sites > img, .sites > a {
+  margin: 0 9vw 5vh 0;
 }
