@@ -174,4 +174,48 @@ p {
     height: 10em;
     border-radius: 50%;
   }
+
+  .title {
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .backgrounds {
+    flex-direction: column;
+  }
+
+  .background {
+    padding: 1em 1em;
+    padding-bottom: 0;
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+  .ender {
+    font-size: 1.3rem;
+    width: 80vw;
+    text-align: center;
+    margin: 1em auto;
+    float: none;
+  }
+
+  .techs {
+    font-size: 1.8em;
+    margin: .5em auto;
+  }
+
+  .icons {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .icons > img, .sites > img {
+    margin: 10px 5px;
+  }
+
+  .temp {
+    text-align: center;
+    margin: 1em;
+    font-size: 1.3em;
+  }
 }
