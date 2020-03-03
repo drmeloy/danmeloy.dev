@@ -176,7 +176,7 @@ p {
   }
 
   .title {
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
   }
 
@@ -187,12 +187,12 @@ p {
   .background {
     padding: 1em 1em;
     padding-bottom: 0;
-    font-size: 1.2em;
+    font-size: 1em;
     text-align: center;
   }
 
   .ender {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     width: 80vw;
     text-align: center;
     margin: 1em auto;
@@ -200,8 +200,9 @@ p {
   }
 
   .techs {
-    font-size: 1.8em;
+    font-size: 1.5em;
     margin: .5em auto;
+    text-align: center;
   }
 
   .icons {
@@ -213,9 +214,23 @@ p {
     margin: 10px 5px;
   }
 
+  .icons > img, .sites > a, a > img {
+    height: 16vh;
+  }
+
   .temp {
     text-align: center;
     margin: 1em;
-    font-size: 1.3em;
+    font-size: 1.1em;
+  }
+
+  .sites {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 350px){
+  #intro {
+    padding-top: 1em;
   }
 }
