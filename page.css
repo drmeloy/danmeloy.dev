@@ -135,12 +135,12 @@ p {
 
 .icons > img, a > img, .sites > a {
   height: 20vh;
-  transition: all .2s ease-in-out;
+  // transition: all .2s ease-in-out;
 }
 
-.icons > img:hover, .sites > a:hover {
-  transform: scale(1.3);
-}
+// .icons > img:hover, .sites > a:hover {
+//   transform: scale(1.3);
+// }
 
 .sites {
   justify-content: flex-end;
@@ -214,8 +214,12 @@ p {
     margin: 10px 5px;
   }
 
-  .icons > img, .sites > a, a > img {
+  .icons > img {
     height: 16vh;
+  }
+
+  .sites > a, a > img {
+    height: 13vh;
   }
 
   .temp {
