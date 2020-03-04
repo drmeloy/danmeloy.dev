@@ -72,7 +72,7 @@ p {
   margin-left: 2vw;
 }
 
-.collapse-bg {
+.backgrounds-mobile {
   display: none;
 }
 
@@ -184,12 +184,18 @@ p {
     text-align: center;
   }
 
-  .collapse-bg {
-    display: block;
+  .backgrounds-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 50%;
+    margin: 1em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
   }
 
   .backgrounds {
-    flex-direction: column;
+    display: none;
   }
 
   .background {
