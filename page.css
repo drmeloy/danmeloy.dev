@@ -72,6 +72,10 @@ p {
   margin-left: 2vw;
 }
 
+.collapse-bg {
+  display: none;
+}
+
 .backgrounds {
   display: flex;
 }
@@ -178,6 +182,10 @@ p {
   .title {
     font-size: 1.5em;
     text-align: center;
+  }
+
+  .collapse-bg {
+    display: block;
   }
 
   .backgrounds {
