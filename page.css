@@ -194,6 +194,10 @@ p {
     font-weight: bold;
   }
 
+  .backgrounds-details {
+    margin-bottom: 1em;
+  }
+
   .backgrounds {
     display: none;
   }
