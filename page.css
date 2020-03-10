@@ -70,17 +70,31 @@ p {
   letter-spacing: 4px;
   font-weight: bold;
   margin-left: 2vw;
+  margin-bottom: .6em;
 }
 
-.backgrounds {
+.backgrounds-mobile {
+  display: none;
+}
+
+.backgrounds, .titles {
   display: flex;
 }
 
 .background {
-  padding: 3vw 3vw;
+  padding: 2vw 3vw;
   text-align: justify;
   font-size: 1.4rem;
   line-height: 1.8rem;
+}
+
+h4{
+  text-align: center;
+  font-size: 1.8em;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  width: 33vw;
+  padding: 0 3vw;
 }
 
 .ender {
@@ -129,12 +143,14 @@ p {
 
 .icons {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   padding: 0 1vw;
 }
 
 .icons > img, a > img, .sites > a {
   height: 20vh;
+  margin-top: 1em;
   // transition: all .2s ease-in-out;
 }
 
@@ -180,8 +196,22 @@ p {
     text-align: center;
   }
 
-  .backgrounds {
+  .backgrounds-mobile {
+    display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    height: 50%;
+    margin: 1em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+  }
+
+  .backgrounds-details {
+    margin-bottom: 1em;
+  }
+
+  .backgrounds {
+    display: none;
   }
 
   .background {
@@ -189,6 +219,10 @@ p {
     padding-bottom: 0;
     font-size: 1em;
     text-align: center;
+  }
+
+  .titles {
+    display: none;
   }
 
   .ender {
@@ -279,14 +313,30 @@ p {
   }
 
   .backgrounds {
+    display: none;
+  }
+
+  .backgrounds-mobile {
+    display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    height: 70%;
+    margin: 1em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+  }
+
+  .backgrounds-details {
+    font-size: 1.5em;
+    margin-bottom: 1em;
   }
 
   .background {
-    padding: 1em 1em;
-    padding-bottom: 0;
-    font-size: 1.4em;
     text-align: center;
+  }
+
+  .titles {
+    display: none;
   }
 
   .ender {
