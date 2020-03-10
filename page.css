@@ -83,7 +83,6 @@ p {
 
 .background {
   padding: 2vw 3vw;
-  text-align: justify;
   font-size: 1.4rem;
   line-height: 1.8rem;
 }
@@ -308,7 +307,7 @@ h4{
   }
 
   .title {
-    font-size: 2.2em;
+    font-size: 3em;
     text-align: center;
   }
 
@@ -327,12 +326,14 @@ h4{
   }
 
   .backgrounds-details {
-    font-size: 1.5em;
+    font-size: 2em;
     margin-bottom: 1em;
   }
 
   .background {
     text-align: center;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
   }
 
   .titles {
@@ -340,7 +341,7 @@ h4{
   }
 
   .ender {
-    font-size: 1.5rem;
+    font-size: 2.3em;
     width: 80vw;
     text-align: center;
     margin: 1em auto;
